@@ -1,5 +1,7 @@
 package com.socialnetwork.assign2;
-
+/**
+ * @author Anqi Li s3633399
+ 
 import java.awt.BorderLayout;
 import java.awt.Component;
 import java.awt.GraphicsEnvironment;
