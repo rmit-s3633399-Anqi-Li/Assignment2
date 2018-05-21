@@ -2,6 +2,8 @@ package com.socialnetwork.assign2.dao;
 
 public class Relation {
 	
+/**
+ * @author Anqi Li s3633399	
 	private String person1Name;
 	private String person2Name;
 	
