@@ -2,6 +2,8 @@ package com.socialnetwork.assign2.dao;
 import java.util.ArrayList;
 
 /**
+ * @author Anqi Li s3633399
+/**
  * Person class
  * which actually is the user class of the social network.
  *
