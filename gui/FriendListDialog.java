@@ -1,5 +1,7 @@
 package com.socialnetwork.assign2.ui;
-
+/**
+ * @author YiNan Jin s3548049
+ */
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
