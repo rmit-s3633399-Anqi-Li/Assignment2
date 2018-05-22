@@ -1,5 +1,7 @@
 package com.socialnetwork.assign2.database;
-
+/**
+ * @author Anqi Li s3633399 
+ */
 /**
  *  a listener to listen any data changes from database
  *
