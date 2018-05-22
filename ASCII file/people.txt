@@ -1,5 +1,5 @@
-Alex Smith, " ", "student at RMIT", M, 21, WA
-Ben Turner, "BenPhoto.jpg", "manager at Coles", M, 35, VIC
-Hannah White, "Hanah.png", "student at PLC", F, 14, VIC
-Zoe Foster, " ", "Founder of ZFX", F, 28, VIC
-Mark Turner, "Mark.jpeg", " ", M, 2, VIC
+Alex Smith, “”, “student at RMIT”, M, 21, WA
+Ben Turner, “BenPhoto.jpg”, “manager at Coles”, M, 35, VIC
+Hannah White, “Hannah.png”, “student at PLC”, F, 14, VIC
+Zoe Foster, “”, “Founder of ZFX”, F, 28, VIC
+Mark Turner, “Mark.jpeg”, “”, M, 2, VIC
