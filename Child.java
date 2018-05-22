@@ -1,8 +1,8 @@
 package com.socialnetwork.assign2.dao;
 
 import java.util.ArrayList;
-
 /**
+ * @author Anqi Li s3633399
  * Teenager(dependent)
  * Description:
  * 
