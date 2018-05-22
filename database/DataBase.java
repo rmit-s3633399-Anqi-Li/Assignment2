@@ -1,5 +1,7 @@
 package com.socialnetwork.assign2.database;
-
+/**
+ * @author Anqi Li s3633399
+ */
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
