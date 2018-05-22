@@ -1,6 +1,7 @@
 package com.socialnetwork.assign2.dao;
 import java.util.ArrayList;
-
+/**
+ * @author Anqi Li s3633399
 public class Adult extends Person {
 
 	private Adult partner = null;
