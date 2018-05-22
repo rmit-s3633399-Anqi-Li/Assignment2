@@ -1,5 +1,9 @@
 package com.socialnetwork.assign2.ui;
-
+/**
+ * 
+ * @author Anqi Li s3633399
+ * 
+ */
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
