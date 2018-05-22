@@ -1,5 +1,6 @@
 package com.socialnetwork.assign2.dao;
 /**
+ * @author Anqi Li s3633399
  * Teenager(dependent)
  * Description:
  * 
