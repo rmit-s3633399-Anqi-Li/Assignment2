@@ -1,7 +1,5 @@
 package com.socialnetwork.assign2.ui;
-/**
- * @author YiNan Jin s3548049
- */
+
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -46,7 +44,7 @@ public class RelationshipFrame extends JFrame implements DataBaseListener{
 	      // menu bar
 	      JMenuBar menuBar = new JMenuBar();
 	      JMenu file = new JMenu("Menu");
-	      //Set the mnemonic to F, press ALT + F to trigger this menu
+	      // 设置助记符为F，按下ALT + F 可以触发该菜单
 	      file.setMnemonic('F');
 
 	      JMenuItem mainFrame = new JMenuItem("Main Frame");
@@ -71,10 +69,10 @@ public class RelationshipFrame extends JFrame implements DataBaseListener{
 
 	      menuBar.add(file);
 
-	      //Set the menu bar, use this method to set the menu bar can not occupy the layout space
+	      // 设置菜单栏，使用这种方式设置菜单栏可以不占用布局空间
 	      setJMenuBar(menuBar);
  
-	      // The above is a normal menu, there is a pop-up menu, right-click pop-up
+	      // 以上为普通菜单，菜单还有一种为弹出式菜单，通过鼠标右击弹出
 	      popMenu = new JPopupMenu();
 	      JMenuItem popItem1 = new JMenuItem("Profile");
 	      JMenuItem popItem2 = new JMenuItem("Delete");
@@ -311,16 +309,16 @@ public class RelationshipFrame extends JFrame implements DataBaseListener{
 	   }
 	   
 	   private void mouseRightButtonClick(java.awt.event.MouseEvent evt) {  
-	       //To determine whether the mouse BUTTON3 button, BUTTON3 right mouse button
+	       //判断是否为鼠标的BUTTON3按钮，BUTTON3为鼠标右键  
 	       if (evt.getButton() == java.awt.event.MouseEvent.BUTTON3) {  
-	           //Find the row in the table as a click by clicking on the location
+	           //通过点击位置找到点击为表格中的行  
 	           int focusedRowIndex = table.rowAtPoint(evt.getPoint());  
 	           if (focusedRowIndex == -1) {  
 	               return;  
 	           }  
-	           //Set the table options to the row currently right-clicked
+	           //将表格所选项设为当前右键点击的行  
 	           table.setRowSelectionInterval(focusedRowIndex, focusedRowIndex);  
-	           //Popup menu
+	           //弹出菜单  
 	           popMenu.show(table, evt.getX(), evt.getY());  
 	       }  
 	  

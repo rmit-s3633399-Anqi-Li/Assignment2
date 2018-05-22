@@ -1,7 +1,5 @@
 package com.socialnetwork.assign2.ui;
-/**
- * @author YiNan Jin s3548049
- */
+
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
@@ -32,6 +30,12 @@ import com.socialnetwork.assign2.dao.Child;
 import com.socialnetwork.assign2.database.DataBase;
 import com.socialnetwork.assign2.ui.SelectSinglePersonDialog.ButtonCallBack;
 
+/**
+ * 
+ * create relationship dialog
+ * fufil the function creating a relationship with two people 
+ *
+ */
 public class CreateRelationshipDialog extends  JDialog {
 	
 	private ArrayList<Person> personList;
